@@ -1,0 +1,88 @@
+
+.main{
+    display:flex;
+    height:600px;
+    width:1000px;
+    margin-left: 8%;
+    margin-top:250px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 80px grey;
+}
+
+.left{
+    width:50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right{
+    width:50%;
+}
+
+.t1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 28px;
+    color: white;
+}
+
+.cir{
+    margin-top: 18px;
+    text-align: center;
+    height: 38%;
+    width: 45%;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    color: white;
+    align-self: center;
+}
+
+.big{
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: larger;
+    width: 80%;
+    margin-left: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+i{
+    align-self:center ;
+    font-size: larger;
+    margin-left: 15px;
+}
+
+.ye{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+.butto{
+    background-color: rgb(88, 85, 85);
+    color: white;
+    width: 76.5%;
+    font-size: larger;
+    margin-left: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+
+}
